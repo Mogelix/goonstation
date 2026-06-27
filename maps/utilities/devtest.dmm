@@ -532,6 +532,10 @@
 /obj/item/storage/belt/utility/prepared/ceshielded,
 /turf/simulated/floor,
 /area/station/devzone)
+"jo" = (
+/obj/table/test,
+/turf/simulated/floor,
+/area/station/devzone)
 "jp" = (
 /obj/disposalpipe/switch_junction/left/east{
 	mail_tag = "QM";
@@ -4421,7 +4425,7 @@ Yx
 Yx
 Yx
 Yx
-Yx
+jo
 Yx
 Yx
 ng
