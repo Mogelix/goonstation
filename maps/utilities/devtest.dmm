@@ -533,7 +533,6 @@
 /turf/simulated/floor,
 /area/station/devzone)
 "jo" = (
-/obj/table/test,
 /turf/simulated/floor,
 /area/station/devzone)
 "jp" = (
