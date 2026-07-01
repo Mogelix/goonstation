@@ -39,7 +39,7 @@
 	setup_equipment_slots()
 		equipment += new /datum/equipmentHolder/ears/intercom/syndicate(src)
 
-/mob/living/critter/robotic/gunbot/engineerbot/strong // Midrounds
+/* /mob/living/critter/robotic/gunbot/engineerbot/strong // Midrounds
 	hand_count = 3
 	health_brute = 75
 	health_brute_vuln = 1
@@ -68,6 +68,7 @@
 		HH.icon_state = "handn"
 		HH.name = "gunbothand"
 		HH.limb_name = "gunbot hands"
+*/
 
 /datum/limb/solder
 	can_pickup_item = FALSE
@@ -167,13 +168,13 @@
 
 
 //Borrowing this, sorry Azrun!
-/obj/item/salvager/gunbot
-	name = "deconstructor"
-	decon_time_mult = 0.5
-	use_power(watts)
-		return TRUE
+// /obj/item/salvager/gunbot
+//	name = "deconstructor"
+//	decon_time_mult = 0.5
+//	use_power(watts)
+//		return TRUE
 
-/datum/limb/deconstructor
+/* /datum/limb/deconstructor
 	can_pickup_item = FALSE
 	var/obj/item/salvager/gunbot/tool = new
 
@@ -183,3 +184,4 @@
 			target.Attackby(src.tool, user, params)
 		else
 			tool.AfterAttack(target, user, reach, params)
+*/

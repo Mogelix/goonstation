@@ -67,8 +67,8 @@
 	tele_man = new()
 	tele_man.setup()
 
-	Z_LOG_DEBUG("World/Init", "M4GP13 setup...")
-	magpie_man.setup()
+//	Z_LOG_DEBUG("World/Init", "M4GP13 setup...")
+//	magpie_man.setup()
 
 	Z_LOG_DEBUG("World/Init", "Mining setup...")
 	mining_controls.setup_mining_landmarks()
