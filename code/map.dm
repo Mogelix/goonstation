@@ -40,6 +40,7 @@ var/global/list/mapNames = list(
 	"blank" =				list("id" = "BLANK",		"settings" = "", 				"playerPickable" = FALSE),
 	"blank_underwater" =	list("id" = "BLANK_UNDERWATER", "settings" = "", 			"playerPickable" = FALSE),
 	"DevTest" =				list("id" = "DEVTEST",		"settings" = "devtest",			"playerPickable" = FALSE,	"MaxPlayersAllowed" = 69),
+	"Office" =				list("id" = "OFFICE",		"settings" = "office",			"playerPickable" = FALSE,	"MaxPlayersAllowed" = 69),
 )
 
 /obj/landmark/map
@@ -976,6 +977,41 @@ var/global/list/mapNames = list(
 	valid_nuke_targets = list("the main security room" = list(/area/station/security/main),
 		"the cargo bay (QM)" = list(/area/station/quartermaster/office),
 		"the station's cafeteria" = list(/area/station/crew_quarters/cafeteria))
+
+/datum/map_settings/office
+	name = "Office"
+	display_name = "The Office"
+	style = "dev zone"
+	arrivals_type = MAP_SPAWN_CRYO
+	dir_fore = NORTH
+
+	Z_LEVEL_PARALLAX_RENDER_SOURCES(1) = list(
+		/atom/movable/screen/parallax_render_source/space_1/west,
+		/atom/movable/screen/parallax_render_source/space_2/west,
+		)
+
+	walls = /turf/simulated/wall/auto/supernorn
+	rwalls = /turf/simulated/wall/auto/reinforced/supernorn
+
+	windows = /obj/window/auto
+	windows_thin = /obj/window/pyro
+	rwindows = /obj/window/auto/reinforced
+	rwindows_thin = /obj/window/reinforced/pyro
+	windows_crystal = /obj/window/auto/crystal
+	windows_rcrystal = /obj/window/auto/crystal/reinforced
+	window_layer_full = COG2_WINDOW_LAYER
+	window_layer_north = GRILLE_LAYER+0.1
+	window_layer_south = FLY_LAYER+1
+
+	escape_dir = EAST
+
+	merchant_left_centcom = /area/shuttle/merchant_shuttle/left_centcom/cogmap
+	merchant_left_station = /area/shuttle/merchant_shuttle/left_station/cogmap
+	merchant_right_centcom = /area/shuttle/merchant_shuttle/right_centcom/cogmap
+	merchant_right_station = /area/shuttle/merchant_shuttle/right_station/cogmap
+
+	valid_nuke_targets = list("the developer zone" = list(/area/station/devzone),
+		"the test chamber or space" = list(/area/space))
 
 /datum/map_settings/devtest
 	name = "DEVTEST"
