@@ -2447,6 +2447,7 @@
 #include "code\obj\false_wall.dm"
 #include "code\obj\foamedmetal.dm"
 #include "code\obj\geodes.dm"
+#include "code\obj\globe.dm"
 #include "code\obj\item.dm"
 #include "code\obj\item_dispensers.dm"
 #include "code\obj\ladder.dm"

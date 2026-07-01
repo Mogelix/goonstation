@@ -32,14 +32,14 @@ o+`        `-` ``..-:yooos-..----------..`
 
 //#define GOTTA_GO_FAST_BUT_ZLEVELS_TOO_SLOW 1  // Only include the tiny map Devtest, no other zlevels. Boots way faster
 
-//#define IM_REALLY_IN_A_FUCKING_HURRY_HERE 1  // All of the below
+#define IM_REALLY_IN_A_FUCKING_HURRY_HERE 1  // All of the below
 
-//#define SKIP_FEA_SETUP // Skip setting up atmospheric system
-//#define SKIP_Z5_SETUP // Skip generation of mining level
-//#define SKIP_PLANETS_SETUP // Skip planet generation (for Artemis)
-//#define SKIP_CAMERA_COVERAGE // Skip calculating security camera coverage
-//#define IM_TESTING_SHIT_STOP_BARFING_CHANGELOGS_AT_ME // Skip changelogs
-//#define I_DONT_WANNA_WAIT_FOR_THIS_PREGAME_SHIT_JUST_GO // Automatically ready up and start the game ASAP. No input required.
+// #define SKIP_FEA_SETUP // Skip setting up atmospheric system
+// #define SKIP_Z5_SETUP // Skip generation of mining level
+// #define SKIP_PLANETS_SETUP // Skip planet generation (for Artemis)
+// #define SKIP_CAMERA_COVERAGE // Skip calculating security camera coverage
+// #define IM_TESTING_SHIT_STOP_BARFING_CHANGELOGS_AT_ME // Skip changelogs
+// #define I_DONT_WANNA_WAIT_FOR_THIS_PREGAME_SHIT_JUST_GO // Automatically ready up and start the game ASAP. No input required.
 
 //////--- CONVENIENCE OPTIONS FOR TESTING ETC ---//
 //#define DISABLE_DEVFILE // Don't load things defined in '__build.local.dm'. Use if you have some breaking changes in there or whatnot
@@ -56,7 +56,7 @@ o+`        `-` ``..-:yooos-..----------..`
 //#define NO_PREGAME_HTML // Don't spawn the HTML pregame browser lobby screen
 //#define I_HATE_WAITING_FOR_GENES // Marks nearly all genes as researched, gives chromosomes/materials/autodecryptors, increases gene storage cap, and removes time/cost limitations on the gene console
 
-//#define STOP_DISTRACTING_ME //All of the below
+#define STOP_DISTRACTING_ME //All of the below
 
 //#define I_AM_ABOVE_THE_LAW // Prevents all secbots and guardbuddies from spawning, useful for gun testing
 //#define ALL_ROBOT_AND_COMPUTERS_MUST_SHUT_THE_HELL_UP // Prevents ALL bots from spawning (not cyborgs)
@@ -134,7 +134,7 @@ o+`        `-` ``..-:yooos-..----------..`
 
 //------------- MAP OVERRIDES -------------//
 
-//#define MAP_OVERRIDE_DEVTEST      // Developer Testing map, by cringe
+#define MAP_OVERRIDE_DEVTEST      // Developer Testing map, by cringe
 
 //-------Special Events:
 //#define MAP_OVERRIDE_CONSTRUCTION // Construction mode
@@ -145,6 +145,7 @@ o+`        `-` ``..-:yooos-..----------..`
 //-------Rotation maps:
 //#define MAP_OVERRIDE_COGMAP       // Cogmap1, by Dr. Cogwerks
 //#define MAP_OVERRIDE_COGMAP2      // Cogmap2, by Dr. Cogwerks
+//#define MAP_OVERRIDE_OFFICE      // Cogmap2, by Dr. Cogwerks
 //#define MAP_OVERRIDE_DONUT2       // Updated Donut Station 2, by committee.
 //#define MAP_OVERRIDE_DONUT3       // Donut Station 3, by Ryumi
 //#define MAP_OVERRIDE_KONDARU      // Kondaru Station, by Kubius
