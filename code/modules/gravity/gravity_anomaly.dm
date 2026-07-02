@@ -376,14 +376,14 @@ ABSTRACT_TYPE(/datum/grav_fault/extreme)
 #endif
 
 /// Wow! Free white hole!
-/datum/grav_fault/extreme/white_hole/effect(turf/origin)
+/* /datum/grav_fault/extreme/white_hole/effect(turf/origin)
 	. = ..()
 
 	var/obj/whitehole/white_hole = new /obj/whitehole(origin, 2 MINUTES + rand(-300, 300), 40 SECONDS + rand(-100, 100), triggered_by_event=TRUE)
 	logTheThing(LOG_STATION, src, "formed a white hole anomaly with origin [white_hole.source_location] at [log_loc(origin)].")
 	message_admins("White Hole anomaly with origin [white_hole.source_location] spawning in [log_loc(origin)]")
 	message_ghosts("<b>\A [white_hole.source_location] white hole</b> is spawning at [log_loc(origin, ghostjump=TRUE)].")
-
+*/
 /// Rips off a single arm from nearby mobs
 /datum/grav_fault/extreme/rip_arms/effect(turf/origin)
 	. = ..()

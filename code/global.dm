@@ -279,7 +279,7 @@ var/global
 	debug_mixed_forced_wraith = 0
 	debug_mixed_forced_blob = 0
 	debug_mixed_forced_flock = 0
-	farting_allowed = 1
+	farting_allowed = 0
 	blood_system = 1
 	bone_system = 0
 	pull_slowing = 0

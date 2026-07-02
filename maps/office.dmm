@@ -5,25 +5,22 @@
 /area/station/devzone)
 "f" = (
 /obj/item/orb/lightning,
-/turf/simulated/floor/airless/wood,
+/turf/simulated/floor/wood,
 /area/station/devzone)
 "n" = (
 /obj/bookshelf,
-/turf/simulated/floor/airless/wood,
+/turf/simulated/floor/wood,
 /area/station/devzone)
 "p" = (
 /obj/table/wood/auto,
 /obj/globe{
 	pixel_y = 12
 	},
-/turf/simulated/floor/airless/wood,
+/turf/simulated/floor/wood,
 /area/station/devzone)
 "r" = (
-/obj/table/reinforced/bar,
 /obj/machinery/phone,
-/turf/simulated/floor/carpet/regalcarpet,
-/area/station/devzone)
-"u" = (
+/obj/table/reinforced/bar/auto,
 /turf/simulated/floor/carpet/regalcarpet,
 /area/station/devzone)
 "w" = (
@@ -34,31 +31,42 @@
 /area/station/devzone)
 "x" = (
 /obj/window/auto,
-/turf/simulated/floor/airless/wood,
+/turf/simulated/floor/wood,
+/area/station/devzone)
+"A" = (
+/turf/simulated/floor/carpet/regalcarpet,
+/area/station/devzone)
+"C" = (
+/obj/landmark/map{
+	name = "OFFICE"
+	},
+/turf/simulated/wall/auto/supernorn/wood,
 /area/station/devzone)
 "E" = (
 /turf/simulated/wall/auto/supernorn/wood,
 /area/station/devzone)
 "I" = (
-/obj/landmark/start/job/captain,
+/obj/landmark/start/latejoin,
 /turf/simulated/floor/carpet/regalcarpet,
 /area/station/devzone)
 "J" = (
-/obj/table/reinforced/bar,
-/obj/machinery/light/lamp/green,
+/obj/machinery/light/lamp/green{
+	pixel_y = 17
+	},
+/obj/table/reinforced/bar/auto,
 /turf/simulated/floor/carpet/regalcarpet,
 /area/station/devzone)
 "O" = (
-/obj/table/reinforced/bar,
 /obj/item/portable_typewriter,
+/obj/table/reinforced/bar/auto,
 /turf/simulated/floor/carpet/regalcarpet,
 /area/station/devzone)
 "Q" = (
 /obj/machinery/door/unpowered/wood/pyro,
-/turf/simulated/floor/airless/wood,
+/turf/simulated/floor/wood,
 /area/station/devzone)
 "S" = (
-/turf/simulated/floor/airless/wood,
+/turf/simulated/floor/wood,
 /area/station/devzone)
 "T" = (
 /obj/decoration/clock,
@@ -66,7 +74,7 @@
 /area/station/devzone)
 "W" = (
 /obj/decoration/decorativeplant/plant2,
-/turf/simulated/floor/airless/wood,
+/turf/simulated/floor/wood,
 /area/station/devzone)
 
 (1,1,1) = {"
@@ -76,7 +84,7 @@ E
 E
 E
 E
-E
+C
 "}
 (2,1,1) = {"
 E
@@ -90,7 +98,7 @@ E
 (3,1,1) = {"
 T
 f
-u
+A
 J
 I
 S
@@ -99,7 +107,7 @@ x
 (4,1,1) = {"
 Q
 S
-u
+A
 O
 w
 S
@@ -108,7 +116,7 @@ E
 (5,1,1) = {"
 E
 S
-u
+A
 r
 a
 f

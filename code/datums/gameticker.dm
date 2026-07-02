@@ -304,7 +304,7 @@ var/global/game_force_started = FALSE
 		ircbot.event("roundstart")
 		mode.post_setup()
 
-		build_random_floor_turf_list()
+//		build_random_floor_turf_list()
 
 		mode.post_post_setup()
 

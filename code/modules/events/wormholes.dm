@@ -31,7 +31,7 @@
 
 var/global/list/turf/random_floor_turfs = null
 
-/proc/build_random_floor_turf_list()
+/* /proc/build_random_floor_turf_list()
 	random_floor_turfs = list()
 	var/list/turf/station_z_turfs = block(locate(1, 1, Z_LEVEL_STATION), locate(world.maxx, world.maxy, Z_LEVEL_STATION))
 	var/rand_amt = rand(150, 250)
@@ -50,3 +50,4 @@ var/global/list/turf/random_floor_turfs = null
 		if(istype(T,/turf/simulated/floor) && !(locate(/obj/window) in T))
 			random_floor_turfs += T
 			LAGCHECK(LAG_LOW)
+*/

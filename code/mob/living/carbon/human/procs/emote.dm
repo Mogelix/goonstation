@@ -70,13 +70,13 @@
 					else if (!muzzled)
 						message = "<B>[src]</B> [istype(src.w_uniform, /obj/item/clothing/under/gimmick/frog) ? "croaks" : "screams"]!"
 						m_type = 2
-						if (src.sound_list_scream && length(src.sound_list_scream))
+/*						if (src.sound_list_scream && length(src.sound_list_scream))
 							playsound(src.loc, pick(src.sound_list_scream), 80, 0, 0, src.get_age_pitch(), channel=VOLUME_CHANNEL_EMOTE)
 						else
 							//if (src.gender == MALE)
 								//playsound(src, src.sound_malescream, 80, 0, 0, src.get_age_pitch())
 							//else
-							playsound(src, src.sound_scream, 80, 0, 0, src.get_age_pitch(), channel=VOLUME_CHANNEL_EMOTE)
+							playsound(src, src.sound_scream, 80, 0, 0, src.get_age_pitch(), channel=VOLUME_CHANNEL_EMOTE)*/
 						#ifdef HALLOWEEN
 						spooktober_GH.change_points(src.ckey, 30)
 						#endif
@@ -1706,7 +1706,7 @@
 					src.changeStatus("unconscious", 3 SECONDS)
 				message = "<b>[src]</b> [lowertext(act)]s!"
 				m_type = 2
-
+/*
 			if ("dance", "boogie")
 				var/cooldown = 50 // I'm sorry but this is the best I can do with this janky system
 				if (istype(src.shoes, /obj/item/clothing/shoes/heels/dancin))
@@ -2090,6 +2090,7 @@
 					else
 						message = "<B>[src]</B> vomits in [his_or_her(src)] own mouth a bit."
 						m_type = 2
+*/
 
 			if ("pee", "piss", "urinate")
 				if (src.emote_check(voluntary))
@@ -2329,7 +2330,7 @@
 					src.show_text("Unusable emote '[act]'. 'Me help' for a list.", "blue")
 				return
 
-	showmessage:
+//	showmessage:
 
 	if (!message)
 		return
