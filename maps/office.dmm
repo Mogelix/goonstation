@@ -1,142 +1,484 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/obj/filing_cabinet,
-/turf/simulated/floor/carpet/regalcarpet,
-/area/station/devzone)
-"f" = (
-/obj/item/orb/lightning,
-/turf/simulated/floor/wood,
+/turf/unsimulated/floor/airless/solidcolor/black,
 /area/station/devzone)
 "n" = (
+/obj/machinery/phone,
+/obj/table/reinforced/bar/auto,
+/turf/simulated/floor/carpet/regalcarpet,
+/area/station/devzone)
+"o" = (
+/turf/simulated/floor/carpet/regalcarpet,
+/area/station/devzone)
+"q" = (
 /obj/bookshelf,
 /turf/simulated/floor/wood,
 /area/station/devzone)
-"p" = (
+"r" = (
+/obj/window/auto,
+/turf/simulated/floor/wood,
+/area/station/devzone)
+"s" = (
+/obj/landmark/start/latejoin,
+/turf/simulated/floor/carpet/regalcarpet,
+/area/station/devzone)
+"t" = (
+/turf/simulated/wall/auto/supernorn/wood,
+/area/station/devzone)
+"v" = (
+/obj/item/portable_typewriter,
+/obj/table/reinforced/bar/auto,
+/turf/simulated/floor/carpet/regalcarpet,
+/area/station/devzone)
+"x" = (
+/obj/machinery/door/unpowered/wood/pyro{
+	locked = 1
+	},
+/turf/simulated/floor/wood,
+/area/station/devzone)
+"B" = (
+/obj/decoration/clock,
+/turf/simulated/wall/auto/supernorn/wood,
+/area/station/devzone)
+"E" = (
+/turf/simulated/floor/wood,
+/area/station/devzone)
+"F" = (
+/obj/stool/chair/comfy{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/regalcarpet,
+/area/station/devzone)
+"I" = (
+/obj/filing_cabinet,
+/turf/simulated/floor/carpet/regalcarpet,
+/area/station/devzone)
+"N" = (
+/obj/landmark/map{
+	name = "OFFICE"
+	},
+/turf/unsimulated/floor/airless/solidcolor/black,
+/area/station/devzone)
+"O" = (
 /obj/table/wood/auto,
 /obj/globe{
 	pixel_y = 12
 	},
 /turf/simulated/floor/wood,
 /area/station/devzone)
-"r" = (
-/obj/machinery/phone,
-/obj/table/reinforced/bar/auto,
-/turf/simulated/floor/carpet/regalcarpet,
-/area/station/devzone)
-"w" = (
-/obj/stool/chair/comfy{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/regalcarpet,
-/area/station/devzone)
-"x" = (
-/obj/window/auto,
-/turf/simulated/floor/wood,
-/area/station/devzone)
-"A" = (
-/turf/simulated/floor/carpet/regalcarpet,
-/area/station/devzone)
-"C" = (
-/obj/landmark/map{
-	name = "OFFICE"
-	},
-/turf/simulated/wall/auto/supernorn/wood,
-/area/station/devzone)
-"E" = (
-/turf/simulated/wall/auto/supernorn/wood,
-/area/station/devzone)
-"I" = (
-/obj/landmark/start/latejoin,
-/turf/simulated/floor/carpet/regalcarpet,
-/area/station/devzone)
-"J" = (
+"P" = (
 /obj/machinery/light/lamp/green{
 	pixel_y = 17
 	},
 /obj/table/reinforced/bar/auto,
+/obj/item/paper_bin,
 /turf/simulated/floor/carpet/regalcarpet,
 /area/station/devzone)
-"O" = (
-/obj/item/portable_typewriter,
-/obj/table/reinforced/bar/auto,
-/turf/simulated/floor/carpet/regalcarpet,
-/area/station/devzone)
-"Q" = (
-/obj/machinery/door/unpowered/wood/pyro,
-/turf/simulated/floor/wood,
-/area/station/devzone)
-"S" = (
-/turf/simulated/floor/wood,
-/area/station/devzone)
-"T" = (
-/obj/decoration/clock,
-/turf/simulated/wall/auto/supernorn/wood,
-/area/station/devzone)
-"W" = (
+"Y" = (
 /obj/decoration/decorativeplant/plant2,
+/turf/simulated/floor/wood,
+/area/station/devzone)
+"Z" = (
+/obj/item/orb/lightning,
 /turf/simulated/floor/wood,
 /area/station/devzone)
 
 (1,1,1) = {"
-E
-E
-E
-E
-E
-E
-C
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+N
 "}
 (2,1,1) = {"
-E
-W
-S
-S
-S
-p
-E
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
 (3,1,1) = {"
-T
-f
-A
-J
-I
-S
-x
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
 (4,1,1) = {"
-Q
-S
-A
-O
-w
-S
-E
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
 (5,1,1) = {"
-E
-S
-A
-r
 a
-f
-x
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
 (6,1,1) = {"
-E
-n
-S
-S
-S
-S
-E
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
 (7,1,1) = {"
+a
+a
+a
+a
+a
+a
+t
+t
+t
+t
+t
+t
+t
+a
+a
+a
+a
+a
+a
+"}
+(8,1,1) = {"
+a
+a
+a
+a
+a
+a
+t
+Y
+E
+E
+E
+O
+t
+a
+a
+a
+a
+a
+a
+"}
+(9,1,1) = {"
+a
+a
+a
+a
+a
+a
+B
+Z
+o
+P
+s
+E
+r
+a
+a
+a
+a
+a
+a
+"}
+(10,1,1) = {"
+a
+a
+a
+a
+a
+a
+x
+E
+o
+v
+F
+E
+t
+a
+a
+a
+a
+a
+a
+"}
+(11,1,1) = {"
+a
+a
+a
+a
+a
+a
+t
+E
+o
+n
+I
+Z
+r
+a
+a
+a
+a
+a
+a
+"}
+(12,1,1) = {"
+a
+a
+a
+a
+a
+a
+t
+q
 E
 E
 E
 E
-E
-E
-E
+t
+a
+a
+a
+a
+a
+a
+"}
+(13,1,1) = {"
+a
+a
+a
+a
+a
+a
+t
+t
+t
+t
+t
+t
+t
+a
+a
+a
+a
+a
+a
+"}
+(14,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(15,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(16,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(17,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(18,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(19,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
