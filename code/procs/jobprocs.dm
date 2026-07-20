@@ -161,6 +161,9 @@ else if (istype(JOB, /datum/job/security/security_officer))\
 	// allocate the remaining players to jobs by preference
 	for (var/mob/new_player/player as anything in unassigned)
 		var/datum/job/job = job_controls.allocate_player_to_job_by_preference(player)
+		if (isnull(job))
+			player.mind.assigned_role = null
+			continue
 		ASSIGN_STAFF_LISTS(job, player)
 
 	/////////////////////////////////////////////////

@@ -108,7 +108,6 @@ ABSTRACT_TYPE(/datum/job/civilian)
 	access_string = "Staff Assistant"
 	no_jobban_from_this_job = TRUE
 	low_priority_job = TRUE
-	cant_allocate_unwanted = TRUE
 	map_can_autooverride = FALSE
 	slot_jump = list(/obj/item/clothing/under/rank/assistant)
 	slot_foot = list(/obj/item/clothing/shoes/black)

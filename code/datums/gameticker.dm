@@ -440,6 +440,11 @@ var/global/game_force_started = FALSE
 					SPAWN(0)
 						antagWeighter.record(role = ROLE_FLOCKMIND, P = P)
 
+				else if (player.mind && isnull(player.mind.assigned_role))
+					boutput(player, SPAN_ALERT("You couldnt be assigned one of the role's from your character's preferences!"))
+					player.ready_play = FALSE
+					player.update_joinmenu()
+
 				else if (player.mind)
 					if (player.client.using_antag_token && ticker.mode.antag_token_support && \
 						!(length(job_controls.forced_assignments) && (player.ckey in job_controls.forced_assignments)))

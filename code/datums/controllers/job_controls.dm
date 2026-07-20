@@ -183,18 +183,9 @@ var/datum/job_controller/job_controls
 				return job
 
 		// look, we tried ok? Just be happy you work here at all.
-		var/list/low_priority_jobs = list()
-		for(var/datum/job/job in job_controls.staple_jobs)
-			if (job.low_priority_job)
-				low_priority_jobs += job
-		if (length(low_priority_jobs))
-			var/datum/job/job = pick(low_priority_jobs)
-			player.mind.assigned_role = job.name
-			job.assigned++
-			logTheThing(LOG_DEBUG, player, "<b>Jobs:</b> Assigned job: [job.name] (fallback job).")
-			return job
+		return
 
-		// staffie fallback
+/*		// staffie fallback
 		var/datum/job/fallback_job = find_job_in_controller_by_path(/datum/job/civilian/staff_assistant)
 		if(!fallback_job)
 			CRASH("Unable to locate the default fallback job in job controller. [player] has not been assigned a job!")
@@ -202,7 +193,7 @@ var/datum/job_controller/job_controls
 		fallback_job.assigned++
 		logTheThing(LOG_DEBUG, player, "<b>Jobs:</b> Assigned job: [fallback_job.name] (emergency fallback job)")
 		return fallback_job
-
+*/
 	proc/job_creator()
 		src.convert_to_cloudsave(usr.client)
 		src.check_user_changed()
